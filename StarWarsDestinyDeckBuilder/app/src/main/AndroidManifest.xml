@@ -19,6 +19,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".newDeck"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_new_deck"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".deckList"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_deck_list"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".cardList"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_card_list"
+            android:theme="@style/FullscreenTheme"></activity>
     </application>
 
 </manifest>
