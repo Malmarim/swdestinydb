@@ -44,19 +44,20 @@
                     android:text="new deck"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/new" />
+                    android:onClick="newDeck" />
+
 
                 <Button
                     android:text="view decks"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/view" />
+                    android:onClick="viewDeck" />
 
                 <Button
                     android:text="card list"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/list" />
+                    android:onClick="cardList" />/>
             </LinearLayout>
         </LinearLayout>
 
