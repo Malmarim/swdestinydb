@@ -1,6 +1,7 @@
 package com.example.tolkk.starwarsdestinydeckbuilder;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -25,7 +26,7 @@ public class DeckBuilder extends AppCompatActivity {
      */
     private static final boolean AUTO_HIDE = true;
 
-    /** 
+    /**
      * If {@link #AUTO_HIDE} is set, the number of milliseconds to wait after
      * user interaction before hiding the system UI.
      */
